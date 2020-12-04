@@ -1,14 +1,361 @@
 <!doctype html>
 
-<html>
+<html lang="en">
   <head>
-    <title>INSERT TITLE HERE!</title>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="index.css">
-    <!-- TODO: add additional links here! e.g. fonts, icons, more stylesheets, etc. -->
     <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap" rel="stylesheet">
   </head>
 
   <body>
-    <!-- TODO: put your HTML code here! -->
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav mr-auto mb-lg-0">
+            <li class="nav-item"> <a class="nav-link" href="#about">About Me</a></li>
+            <li class="nav-item"> <a class="nav-link" href="#personas">Personas & Storyboarding</a></li>
+            <li class="nav-item"> <a class="nav-link" href="#redesign">Responsive Redesign</a></li>
+            <li class="nav-item"> <a class="nav-link" href="#iterative">Iterative Design</a></li>
+            <li class="nav-item"> <a class="nav-link" href="#development">Development</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id="#" class="d-flex home text-center flex-column bg-dark justify-content-center text-light">
+        <h1>CS1300 IN ACTION</h1>
+        <h4 class="h4">MAKING SIMPLE COOL</h4>
+    </div>
+
+    <div id="about" class="container-fluid flex-column background text-center mb-3 justify-content-center align-items-center">
+      <h2 class="pt-5">Hi, I'm XXX :)</h2>
+      <div class="section-body mb-2"><div>
+        <p>I'm a senior at Brown studying Computer Science-Economics. My background is primarily in
+          backend engineering work, so CS1300 has been my first foray into the world of design. This portfolio 
+          will take you chronologicallly through my experience in the class and share some of the cool 
+          work and valuable lessons I've learned along the way.
+        </p>
+      </div>
+    </div>
+
+    <div id="personas" class="container-fluid flex-column background text-center mb-2 justify-content-center align-items-center">
+      <h2 class="pt-5">PERSONAS & STORYBOARDING</h2>
+      <h4 class="pt-3">The Task</h2>
+      <hr>
+      <div class="section-body mb-2">
+
+        <p> My task was straightforward. I chose a physical interface and conducted user experiments
+          with a diverse group of people. Then, I asked them a series of non-leading questions to dig deeper
+          into their experience and feelings about using the interface. Finally, I created two personas based
+          on this information and crafted a storyboard for one of the fictional personas. 
+        </p>
+        
+        <p> I chose to model this project around an unusually built pasta strainer. This product
+          intrigued me because I believed that novices in the kitchen would be ill-equiped to successfully
+          use it. It is quite different from the strainers that most people typically use.
+        </p>
+      </div>
+
+      <div class="d-flex flex-row align-items-center justify-content-center mb-3">
+        <img class="wid" src="images/top_sketch.jpeg">
+      </div>
+
+
+      <h4 class="pt-3">The Takeaways</h2>
+      <hr>
+      <div class="section-body mb-4">
+        <p> My intuition was correct. Users without too much experience in the kitchen had a very
+          difficult time straining pasta with this strainer. They even reported feeling 
+          "concerned, anxious, and uncomfortable" in their interactions with the strainer. 
+        </p>
+      </div>
+
+      <div class="d-flex flex-row align-items-center justify-content-center">
+        <img class="wid" src="images/sam.png">
+      </div>
+
+      <div class="d-flex flex-row align-items-center justify-content-center mb-3">
+        <p><small>Sam embodies the frustrations of a novice chef using the strainer</small></p>
+      </div>
+
+      <div class="section-body mb-4">
+        <p>
+          Their failure taught me a valuable lesson about design. Interfaces that depart severely
+          from the expectations and intuition of potential users must provide ample instruction
+          for how to use it. Otherwise, unsavvy users will be lost and abandon the interface. Simple 
+          interface avoid this problem all together.
+        </p>
+
+        <p>More fundamentally, this project taught me a lot about the design process. Prior to this project, 
+          I had no clue what personas were nor had I ever storyboarded before. These tasks
+          served as the perfect introduction to the world of design and helped me to build a base of fundamental UI/UX skills.
+         </p>
+
+         <p>Check out the full project submission <a href="https://gentle-ridge-96349.herokuapp.com/"> here</a></p>
+      </div>
+    </div>
+
+
+
+    <div id="redesign" class="container-fluid flex-column background text-center mb-2 justify-content-center align-items-center">
+      <h2 class="pt-5">RESPONSIVE REDESIGN</h2>
+      <h4 class="pt-3">The Task</h2>
+      <hr>
+      <div class="section-body mb-2">
+
+        <p> With this project, I ventured into the pits of the internet to find a website that,
+          simply put, could use a makeover. 
+        </p>
+        
+        <p> Once I found my site, home to <a href="https://www.castleawards.com/"> Castle Awards </a> of
+          East Providence, I thoroughly inspected it for usability and accessibility issues. These issues formed
+          the basis for my final product, a new, responsive website for Castle Awards.
+        </p>
+
+        <p>
+          The key problems that I identified
+          were that the page feels incredibly cluttered, does not contain a clear heirarchy, and finding information
+          is challenging. Additonally, the site is not responsive to different screen sizes and most of the text on
+          the page is actually embedded within images.
+        </p>
+      </div>
+
+      <div class="d-flex flex-row align-items-center justify-content-center">
+        <img class="wid" src="images/Castle_Awards_Short.png">
+      </div>
+
+      <div class="d-flex flex-row align-items-center justify-content-center mb-3">
+        <p><small>A screenshot of the web landing view of Castle Awards' original site</small></p>
+      </div>
+
+
+      <div class="section-body mb-2">
+        <p>
+          My first step towards building the new site was to put together a set of low fidelity 
+          wireframes that sketched out the basic design of the site across mobile, tablet and web. Then,
+          I turned the low-fi wireframes into a series of high fidelity prototypes. 
+        </p>
+
+        <p>
+          Taking what I had learned from the previous project, I tried to put forward a clean and elegant
+          design. For example, I transformed the list of links under the header image to distinct product categories
+          with associated images. Additionally, I cleaned up the featured product and landing page views and made them
+          much more inviting and friendlier.
+        </p>
+
+        <p>
+          I also made sure to annotate the wireframes and prototypes extensively and construct a visual
+          style guide. I took these steps to document my thought processes and provide a set of basic
+          instructions for how I planned to build the site.
+        </p>
+
+        <p>
+          All that's left is to build the site!
+        </p>
+      </div>
+
+      <div class="d-flex flex-row align-items-center justify-content-center">
+        <img class="wid" src="images/Castle_Awards_New.png">
+      </div>
+
+      <div class="d-flex flex-row align-items-center justify-content-center mb-3">
+        <p><small>A screenshot of the featured product and product catalog views of the new site</small></p>
+      </div>
+
+
+      <h4 class="pt-3">The Takeaways</h2>
+      <hr>
+      <div class="section-body mb-4">
+        <p> 
+          For me, the site redesign was a prime lesson in "less is more." The original Castle Awards
+          site was flawed in a multitude of ways, but perhaps no more so than its clutter and general
+          disorganization. To fix this, I stripped away all of the superflous information and only
+          kept the parts of the site that are truly important. Once again, simplicity won the day.
+        </p>
+
+        <p> 
+          The project also taught me tangible skills that will serve me well throughout my design 
+          career. I can envision many scenarios in which low-fi and hi-fi prototyping may come in handy,
+          so I'm very glad that I had the opportunity to explore those disciplines here.
+        </p>
+
+        <p>Check out the full project submission <a href="https://ancient-inlet-68241.herokuapp.com/"> here</a></p>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+    <div id="iterative" class="container-fluid flex-column background text-center mb-2 justify-content-center align-items-center">
+      <h2 class="pt-5">ITERATIVE DESIGN</h2>
+      <h4 class="pt-3">The Task</h2>
+      <hr>
+      <div class="section-body mb-2">
+
+        <p> 
+          Throughout class we have learned how the iterative design process can lead to better idea 
+          generation and variety in designs. Using our newfound experience in lo-fi and hi-fi prototyping, 
+          my team and I were able to complete the iterative design process to design the interface for 
+          an emerging startup. We chose Fancy, a snack-delivery service similar to Uber Eats, featured in YCombinator's 
+          demo day.
+        </p>
+        
+        <p> 
+          We began the design process by sketching possible designs for the site, trying to expand our own 
+          imaginations and not be limited by how food delivery platforms traditionally look. After completing
+          four cohesive sets of designs, we evaluated what we thought did and did not make sense to include in the
+          final version. This was a particulary interesting task because this process forced us to grapple with
+          fundamental questions about the user flow and relative importance of various components of the site.
+        </p>
+
+        <p>
+          Ultimately, we cobbled together sketches from different sets of designs and product a low-fi prototype
+          based on the designs. 
+        </p>
+      </div>
+
+
+      <div class="d-flex flex-row align-items-center justify-content-center">
+        <iframe class="fig" style="border: 1px solid rgba(0, 0, 0, 0.1);" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fh5lqY93gn5hQsrc11pNYzi%2FLow-Fi-Wireframes%3Fnode-id%3D2%253A2%26scaling%3Dmin-zoom" allowfullscreen></iframe>
+      </div>
+
+      <div class="d-flex flex-row align-items-center justify-content-center mb-3">
+        <p><small>Our low-fi prototype</small></p>
+      </div>
+
+
+      <div class="section-body mb-2">
+        <p>
+          After completing the low-fi prototype, we built a hi-fi prototype. Before finalizing the 
+          hi-fi prototype, we received feedback from our peers. This was an helpful checkpoint and
+          made us aware of some design flaws that we hadn't considered. After incorporating the feedback
+          we finalized our hi-fi prototype.
+        </p>
+      </div>
+
+      <div class="d-flex flex-row align-items-center justify-content-center">
+        <iframe class="fig" style="border: 1px solid rgba(0, 0, 0, 0.1);" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FdsYPRe3g89QAm195XGPfag%2FHi-Fi-Post-Critique%3Fnode-id%3D5%253A317%26scaling%3Dmin-zoom" allowfullscreen></iframe>
+      </div>
+
+      <div class="d-flex flex-row align-items-center justify-content-center mb-3">
+        <p><small>Our hi-fi prototype</small></p>
+      </div>
+
+
+
+      <div class="section-body mb-2">
+        <p>
+          The final step of the iterative design process was collecting user feedback. We created a 
+          set of tasks for users to complete and wrote questions that asked about users' experience
+          with the prototype and the tasks. We utilized <a href="https://www.usertesting.com">usertesting.com</a> to 
+          recruit test subjects. Watching users navigate our prototype was incredibly interesting and 
+          showed us where additional refinement needed to be done.    
+        </p>
+      </div>
+
+    
+
+      <h4 class="pt-3">The Takeaways</h2>
+      <hr>
+      <div class="section-body mb-4">
+        <p>
+          Watching our thoughts transform from sketches, to low-fi, and then to hi-fi prototypes that 
+          were being used by real people was incredible to watch. I loved seeing the ideas grow and change
+          as more thought was given to both big ideas like user flow and small details like button placement.
+        </p>
+        
+        <p>
+          For me, this project also emphasized the critical role that feedback and demonstration play
+          in design. Without the peer hi-fi review, our final prototype would have functioned far worse.
+          Additionally, if we were to deploy a website based on the prototype, the user testing feedback 
+          absolutely must be incorporated.
+        </p>
+
+        <p>
+          The user testing feedback also drove home the idea that designers must always place their users
+          first. We must be aware of how people think and how people will approach the application. These 
+          considerations cannot come second to aesthetics or ease of developement. 
+        </p>
+
+        <p>Check out the full project submission <a href="https://www.castleawards.com/"> here</a></p>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <div id="development" class="container-fluid flex-column background text-center mb-2 justify-content-center align-items-center">
+      <h2 class="pt-5">DEVELOPMENT</h2>
+      <h4 class="pt-3">The Task</h2>
+      <hr>
+      <div class="section-body mb-2">
+
+        <p> 
+          This project was focused on using React, a framework often used to build dynamic, interactive
+          websites. We were tasked with building a site that contained filtering, sorting, and aggregating
+          functionalities, so I decided to build a virtual grocery store. 
+        </p>
+
+        <p>
+          In thinking about how the site should be designed, I knew that I wanted the sorting and filtering
+          options to be clear and intuitive to use. Similarly, I wanted it to be clear when items were added
+          to the aggregator. I felt strongly that I must obey these principles because these were some of the 
+          flaws with our iterative design prototype for Fancy.
+        </p>
+      
+      </div>
+
+
+      <div class="d-flex flex-row align-items-center justify-content-center">
+        <img class="wid" src="images/development.png">
+      </div>
+
+      <div class="d-flex flex-row align-items-center justify-content-center mb-3">
+        <p><small>The site with a few items in the cart</small></p>
+      </div>
+
+      <h4 class="pt-3">The Takeaways</h2>
+      <hr>
+      <div class="section-body mb-4">
+        <p>
+          This project felt particularly rewarding to work on because I felt like I could apply many of the 
+          lessons that I had learned from previous projects. For example, I focused on constructing a simple and intuitive design.
+          I put the users' needs first and tried to imitate the experience of seeing food at the grocery store to 
+          meet customer expectations.
+        </p>
+
+        <p>
+          I also really enjoyed my hands-on experience with React. I learned how to think about a state-model, how to
+          organize an application heirarchy, how to write callback functions, and got into the nitty-gritty of front
+          end development. It truly was the culmination of a semesters worth of learning and personal growth.
+        </p>
+
+        <p>Check out the full project submission <a href="https://shrouded-chamber-48810.herokuapp.com/"> here</a></p>
+        
+      </div>
+    </div>
+
+
+    <br>
+    <br>
+    <div class="section-body mb-4">
+      Thanks for visiting my portfolio :)<br>
+    </div>
+    <br>
+
   </body>
 </html>

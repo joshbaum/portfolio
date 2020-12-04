@@ -1,1 +1,54 @@
 /* Put your style information here! */
+
+@font-face {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('PT_Sans'), url(/fonts/PT_Sans/PTSans-Regular.ttf) format('ttf')
+}
+
+
+
+ hr {
+  width: 20rem;
+  height: 3px;
+  color: black;
+  background-color: black;
+ }
+
+h1 {
+    font-size: 100px;
+}
+
+.home {
+    height: 60vh;
+    font-family: 'Kanit', sans-serif;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.background {
+    background-color: whitesmoke;
+}
+
+.section-body {
+    display: inline-block;
+    max-width: 35rem;
+    word-wrap: break-word;
+    text-align: left;
+}
+
+p {
+  font-size: 30;
+  font-family: Helvetica;
+}
+
+.wid {
+  max-width: 60%;
+  border-radius: 15px;
+}
+
+.fig {
+  width: 60%;
+  height: 80vh;
+}
